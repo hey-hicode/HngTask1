@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  #main {
+    height: 100vh;
+    padding: 8px;
+    display: flex;
+
+  }
+  
+  #container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* align-items: start; */
+    padding:20px;
+    max-width: 1200px;
+    /* padding: 0 12px; */
+  }
+  
+  @media (min-width: 1024px) {
+    #container {
+      flex-direction: row;
+      align-items: center;
+      gap: 32px;
+
+    }
+    #main {
+        justify-content: center;
+        align-items: center;
+    }
+  }
+  
+  #profile-container {
+    margin-bottom: 16px;
+  }
+  
+  
+  
+  #profile-picture {
+    width: 500px;
+    height: 500px;
+    /* border-radius: 50%; */
+  }
+  
+  /* #info-container {
+    text-align: center;
+  }
+   */
+ 
+  
+  #name {
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+  
+  #email,
+  #current-time,
+  #current-day {
+    font-size: 16px;
+  }
+  
+  #goals-list {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  #goals-list li {
+    margin-bottom: 8px;
+  }
+  
+  #links a {
+    display: block;
+    margin: 8px 0;
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  #links a:hover {
+    text-decoration: underline;
+  }
+  #links{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
